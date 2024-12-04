@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>welcome to jinga operational tags </h1>
+        <h1>welcome to jinga conditional tags</h1>
+        <h1>if condition</h1>
+        {% if marks > 250 %}
+        <h1>{{name}} passed the exam</h1>
+        {% endif %}
+
+
+
+
+        <h1>if-else condition</h1>
+        {% if age > 18 %}
+        <h1>{{name}} eligible for voting</h1>
+        {% else %}
+        <h1>{{name}} not eligible for voting</h1>
+        {% endif %}
+
+
+
+        <h1>if-elif condition</h1>
+        {% if a > b and a > c %}
+         <h1>{{a}} is greater than b</h1>
+         {% elif b > c %}
+         <h1>{{b}} is greater than c</h1>
+         {% else %}
+         <h1>{{c}} is greater than b</h1>
+         {% endif %}
+          
+
+
+
+
+         <h1>for loop with collection data type</h1>
+         {% for i in name %}
+         <h1>{{i}}</h1>
+         {% endfor %}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</center>
+</body>
+</html>
